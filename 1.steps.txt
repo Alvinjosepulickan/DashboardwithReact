@@ -1,0 +1,32 @@
+create-react-app appName
+
+syncfusion dependencies
+npm install @syncfusion/ej2-react-grids --save
+npm install --legacy-peer-deps
+
+https://www.youtube.com/watch?v=jx5hdo50a2M
+https://github.com/adrianhajdin/project_syncfusion_dashboard
+
+
+copy index.css, App.css
+
+setup tailwind 
+npm install -D tailwindcss
+npx tailwindcss init
+
+copy tailwind.config.js
+create and copy craco.config.js
+    CRACO stands for Create React App Configuration Overide. 
+    Short and sweet, it's an hacky layer on top of Create React App (CRA) to customize it's configuration
+
+
+
+
+folders in src
+    components
+    contexts
+        React context api's
+    pages
+    Data
+        folder  for images and static Data
+        download from git
