@@ -1,0 +1,9 @@
+from ecommerce.jsx
+
+
+
+component/chart/sparkline.jsx
+1st graph
+                /Stacked.jsx
+                /Pie.jsx
+
