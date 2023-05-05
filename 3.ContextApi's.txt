@@ -1,0 +1,28 @@
+keep track of state 
+
+create ContextProvider.js in  COntext folder
+
+using activeMenu from ContextProvider
+    in index.js
+        import { useStateContext } from '../contexts/ContextProvider';
+
+        <ContextProvider>
+            <App />
+        </ContextProvider>
+
+    in App.js
+
+        import { useStateContext } from '../contexts/ContextProvider';
+
+
+        const { setCurrentColor, setCurrentMode, currentMode, activeMenu, currentColor, themeSettings, setThemeSettings } = useStateContext();
+
+
+
+implementing functionality of sidebar
+    import { useStateContext } from '../contexts/ContextProvider';
+    const { currentColor, activeMenu, setActiveMenu, screenSize } = useStateContext();
+
+    closingg menu with close button 
+
+       

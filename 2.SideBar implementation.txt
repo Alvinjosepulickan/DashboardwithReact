@@ -1,0 +1,2 @@
+SideBar.jsx in Components folder
+getting items in sidebar from dummy file in data folder.

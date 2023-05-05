@@ -1,0 +1,17 @@
+NavButton
+    creates a navbutton.
+    button wrapped in a tooltip component.
+
+{/*fetching values from context providers */}
+        {isClicked.cart && (<Cart />)}
+        {isClicked.chat && (<Chat />)}
+        {isClicked.notification && (<Notification />)}
+        {isClicked.userProfile && (<UserProfile />)}
+
+
+
+
+useEffect  in navbar is to set activemenu flag baseed on screensize
+
+
+handleclosedsidebar in sidebar.jsx

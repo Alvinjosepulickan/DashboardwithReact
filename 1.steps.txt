@@ -30,3 +30,54 @@ folders in src
     Data
         folder  for images and static Data
         download from git
+
+
+create syncfusion-license.txt file and use the license
+
+Chart folder inside components
+    LineChart.jsx
+    Pie.jsx
+    SparkLinne.jsx
+    Stacked.jsx
+create components 
+    Button.jsx
+    Cart.jsx
+    Chat.jsx
+    ChartsHeader.jsx
+    Footer.jsx
+    Header.jsx
+    Notification.jsx
+    Sidebar.jsx
+    ThemeSettings.jsx
+    index.jsx
+        copy code from github
+        for easily exporting the components
+create pages
+    Calendar.jsx
+    ColorPicker.jsx
+    Customers.jsx
+    Ecommerce.jsx
+    Editor.jsx 
+    Employees.jsx
+    Kanban.jsx
+    Orders.jsx
+    index.jsx
+    
+    create charts folder in  pages
+        Area.jsx
+        Bar.jsx
+        ColorMapping.jsx
+        Financial.jsx
+        Line.jsx
+        Pie.jsx
+        Pyramid.jsx
+        Stacked.jsx
+
+
+
+
+
+
+import jsx files in app.js
+import { Navbar, Footer, Sidebar, ThemeSettings } from './components';
+import { Ecommerce, Orders, Calendar, Employees, Stacked, Pyramid, Customers, Kanban, Line, Area, Bar, Pie, Financial, ColorPicker, ColorMapping, Editor } from './pages';
