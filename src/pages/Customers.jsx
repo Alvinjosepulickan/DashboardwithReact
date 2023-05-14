@@ -1,12 +1,13 @@
 import React from 'react';
-import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter } from '@syncfusion/ej2-react-grids';
+import { GridComponent, ColumnsDirective, ColumnDirective, Page, Selection, Inject, Edit, Toolbar, Sort, Filter,Search } from '@syncfusion/ej2-react-grids';
 
 import { customersData, customersGrid } from '../data/dummy';
 import { Header } from '../components';
+//import { Search } from '@syncfusion/ej2-react-dropdowns';
 
 const Customers = () => {
   const selectionsettings = { persistSelection: true };
-  const toolbarOptions = ['Delete'];
+  const toolbarOptions = ['Delete','Search'];
   const editing = { allowDeleting: true, allowEditing: true };
 
   return (
@@ -26,7 +27,7 @@ const Customers = () => {
           {/* eslint-disable-next-line react/jsx-props-no-spreading */}
           {customersGrid.map((item, index) => <ColumnDirective key={index} {...item} />)}
         </ColumnsDirective>
-        <Inject services={[Page, Selection, Toolbar, Edit, Sort, Filter]} />
+        <Inject services={[Search,Page, Selection, Toolbar, Edit, Sort, Filter]} />
       </GridComponent>
     </div>
   );

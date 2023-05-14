@@ -1,0 +1,5 @@
+components/themeSettings.jsx
+
+
+
+clicking on setting button

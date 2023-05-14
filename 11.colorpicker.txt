@@ -1,0 +1,3 @@
+pages/colorpicker.jsx
+
+import { ColorPickerComponent } from '@syncfusion/ej2-react-inputs';
