@@ -1,0 +1,4 @@
+using netlify
+
+
+npm run build
